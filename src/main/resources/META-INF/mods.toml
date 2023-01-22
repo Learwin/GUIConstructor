@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="MIT"
+
+[[mods]]
+modId="guiconstructor"
+version="${file.jarVersion}"
+displayName="GUI Constructor"
+authors="Learwin"
+description='''
+GUI Constructor is a library for the creation of GUIs via elements which take care of all the backend.
+'''
+
+[[dependencies.guiconstructor]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.guiconstructor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,)"
+    ordering="NONE"
+    side="BOTH"
